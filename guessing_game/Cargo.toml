@@ -8,3 +8,5 @@ authors = ["Stanislaw Malinowski <stanislaw.malinowski@stfc.ac.uk>"]
 
 
 [dependencies]
+
+rand = "0.8.4"
