@@ -1,4 +1,4 @@
 
 *.rcgu.o
 
-*/*/target
+target/
