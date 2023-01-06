@@ -1,3 +1,8 @@
+//! Minigrep 
+//! 
+//! 'minigrep' is a simple tool for doing cli search
+
+
 use std::env;
 use std::error::Error;
 // use std::error::Error;
@@ -36,6 +41,12 @@ impl Config {
     }
 }
 
+/// runs the search based on the config
+/// # examples
+/// ```
+/// let arg =5;
+/// println!("some assertion");
+/// ```
 pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
     let contents = fs::read_to_string(config.file_path)?;
 
